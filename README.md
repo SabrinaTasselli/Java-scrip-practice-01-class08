@@ -1,1 +1,1 @@
-# Java-scrip-practice-01-class08
+# Java-script-practice-01-class08
