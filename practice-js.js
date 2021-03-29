@@ -7,13 +7,13 @@ var x = a + b;
 console.log (x)
 /* b- Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
 */
-var nombre = "Sabrina";
-var apellido = "Tasselli";
-var nombreCompleto = nombre + apellido;
-console.log (nombreCompleto)
+var firstName = "Sabrina";
+var lastName = "Tasselli";
+var fullName = firstName + lastName;
+console.log (fullName)
 /* c- Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado la suma una 3er variable (utilizar length).
 */
-var nombre = "Sabrina";
-var apellido = "Tasselli";
-var nombreCompleto = nombre + apellido;
-console.log (nombreCompleto.length)
+var firstName = "Sabrina";
+var lastName = "Tasselli";
+var fullName = firstName + lastName;
+console.log (fullName.length)
