@@ -13,8 +13,8 @@ console.log(months.sort());
 /*
 c- Agregar un elemento al principio y al final del array (utilizar unshift y push).
 */
-var holaMonths = months.unshift("Hola");
-var monthsChau = months.push("Chau");
+months.unshift("Hola");
+months.push("Chau");
 console.log(months);
 /*
 d- Quitar un elemento del principio y del final del array (utilizar shift y pop).

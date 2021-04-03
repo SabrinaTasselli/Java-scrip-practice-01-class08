@@ -9,11 +9,11 @@ console.log (x)
 */
 var firstName = "Sabrina";
 var lastName = "Tasselli";
-var fullName = firstName + lastName;
+var fullName = firstName + " " + lastName;
 console.log (fullName)
 /* c- Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado la suma una 3er variable (utilizar length).
 */
 var firstName = "Sabrina";
 var lastName = "Tasselli";
-var fullName = firstName + lastName;
-console.log (fullName.length)
+var fullName = firstName.length + lastName.length;
+console.log (fullName)

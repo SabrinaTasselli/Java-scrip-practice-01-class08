@@ -10,7 +10,7 @@ if (a >= 0.5) {
 } else {
     theNumberIs = "Lower than 0,5";
 }
-console.log(theNumberIs);
+alert(theNumberIs);
 /*
 b- Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los 
 siguientes mensajes de alerta:
@@ -22,7 +22,8 @@ siguientes mensajes de alerta:
     vi- “Adulto mayor” entre 61 y 75 años
     vii- “Anciano” si es mayor a 75 años
 */
-var age = 80;
+var age = Math.random ()*100;
+console.log(age);
 if (age < 2) {
     console.log("La persona es un" + " " + "Bebe");
 }else if ((age >= 2) && (age <= 12)) {
